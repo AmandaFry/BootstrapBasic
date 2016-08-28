@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html ng-app='myApp'>
+<head> 
+    <meta charset="UTF-8">
+	<title>TODO: Title goes here</title>
+	<meta name="description" content="TODO: description goes here ">
+	<link rel="stylesheet" type="text/css" href="AmandaTemplate.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js">-->
+</head>
+
+<body>	
+    <div class="container">
+        <div class="header">
+            <h1><span>(Bootstarp) </span> Basic Bootstrap</h1>
+            <h3>Assigment - optional</h3>
+            <div class="descr">
+                <p>Assigment description: Not covered in Dojo just mentioned</p>
+                <ul>
+                    <li>Columns</li>
+                    <li>Text and Alerts</li>
+                    <li>Tables</li>
+                    <li>Button</li>
+                </ul>
+            </div>
+        </div><!-- end of header content-->
+        <div class="maincontent">
+            <div class="rows">
+                <h3>Columns</h3>
+                <div>
+                    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+                    <div class="col-sm-4" style="border: 1px solid blue">.col-sm-4</div>
+                    <div class="col-sm-4" style="border: 1px solid blue">.col-sm-4</div>
+                </div>
+                </br>
+                <p>2 not equal columns</p>
+                <div>
+                    <div class="col-sm-4" style="border: 1px solid blue">.col-md-4</div>
+                    <div class="col-sm-8" style="border: 1px solid blue">.col-md-8</div>
+                </div>
+            </div>
+            <div class="rows">
+                <h3>Contextual Colors</h3>
+                <!-- <p class="text-muted">This text is muted.</p> -->
+                <!-- <p class="text-primary">This text is important.</p> -->
+                <p class="text-success">This text indicates success.</p>
+                <!-- <p class="text-info">This text represents some information.</p> -->
+                <!-- <p class="text-warning">This text represents a warning.</p> -->
+                <p class="text-danger">This text represents danger or failure.</p>
+            </div>
+            <div>
+                <h3>Alerts</h3>
+                <div class="alert alert-success">
+                    <strong>Success!</strong> Indicates a successful or positive action.
+                </div>
+                <div class="alert alert-danger">
+                    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                </div>
+            </div>
+            <div>
+                <h3>Tables</h3>
+                <p>Striped Rows</p>
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                      </tr>
+                      <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                      </tr>
+                      <tr>
+                        <td>Howey</td>
+                        <td>Dooley</td>
+                        <td>Howey@example.com</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p>Table with borders</p>
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                      </tr>
+                      <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                      </tr>
+                      <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="rows">
+                <h3>Buttons</h3>
+                <p>Button types</p>
+                <button type="button" class="btn btn-default">Default</button>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-link">Link</button>
+                <p>Button sizes</p>
+                <button type="button" class="btn btn-primary btn-lg">Large</button>
+                <button type="button" class="btn btn-primary btn-md">Medium</button>
+                <button type="button" class="btn btn-primary btn-sm">Small</button>
+                <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+                <p>Active - disabled button</p>
+                <button type="button" class="btn btn-primary active">Active Primary</button>
+                <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+            </div>
+            <div class="rows">
+                <h4>Drop down</h4>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="rows">
+                <h3>List Items</h3>
+                <div class="form-group">
+                  <label for="sel1">Select list:</label>
+                  <select class="form-control" id="sel1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+            </div>
+        </div><!-- end of main content-->
+        <div class="footer">
+            <p>created by: Amanda Fry</p>
+            <a class="footerSpace" href="mailto:FeAmandaF@hotmail.com">FeAmandaF@hotmial.com</a>
+            <a href="https://www.linkedin.com/in/amandafry1">Amanda's LikedIn profile</a>
+        </div><!-- end of footer -->
+      </div><!-- end of container -->
+</body>
+</html>
